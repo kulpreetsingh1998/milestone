@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MotionDetectionFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="266dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="96dp"
+        android:lineSpacingExtra="5sp"
+        android:text="@string/motion_detector"
+        android:textColor="#ffe5e5"
+        android:textSize="36sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toStartOf="@+id/running_icon"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pir_data_buzzer_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="168dp"
+        android:lineSpacingExtra="5sp"
+        android:text="Alarm System Status"
+        android:textColor="#ffe5e5"
+        android:textSize="27sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/pir_data_motion_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="5sp"
+        android:text="Motion Sensor Report"
+        android:textColor="#ffe5e5"
+        android:textSize="27sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/pir_data_motion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pir_data_buzzer" />
+
+
+    <TextView
+        android:id="@+id/pir_data_motion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="5sp"
+        android:text="Default value of Sensor Report"
+        android:textColor="#13ee13"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/safe_symbol"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pir_data_motion_header" />
+
+    <TextView
+        android:id="@+id/pir_data_buzzer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="5sp"
+        android:text="Default value for Alarm System"
+        android:textColor="#13ee13"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/pir_data_motion_header"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pir_data_buzzer_header" />
+
+    <ImageView
+        android:id="@+id/running_icon"
+        android:layout_width="68dp"
+        android:layout_height="106dp"
+        android:src="@drawable/motion_detection_running_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116" />
+
+    <ImageButton
+        android:id="@+id/safe_symbol"
+        android:layout_width="76dp"
+        android:layout_height="83dp"
+        android:layout_marginBottom="88dp"
+        android:src="@drawable/ok3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pir_data_motion" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

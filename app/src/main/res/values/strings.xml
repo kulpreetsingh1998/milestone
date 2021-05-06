@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">GID_Milestone2</string>
+    <string name="title_activity_menu">GID</string>
+    <string name="title_home">Home</string>
+    <string name="email_hint">email</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="password_hint">password</string>
+    <string name="confirm_hint">confirm password</string>
+    <string name="alerts">Sensor Alerts</string>
+    <string name="warnings">No warnings from the given sensors</string>
+    <string name="tasks">Tasks</string>
+    <string name="tasks_text">No Tasks to be completed today</string>
+    <string name="temp">26 degrees</string>
+    <string name="details">Details</string>
+    <string name="good">Good!</string>
+    <string name="pressure">PRESSURE</string>
+    <string name="humidity">HUMIDITY</string>
+    <string name="pressure_value">1024 Mb</string>
+    <string name="humidity_value">50%</string>
+    <string name="device">Device Type:</string>
+    <string name="motion_detector">Motion Detector</string>
+    <string name="blocksize">Block Size (%):</string>
+    <string name="motion_area">Motion Area (%):</string>
+    <string name="min_area">Minimum total motion area to care</string>
+    <string name="time">Time period:</string>
+    <string name="immobility">Immobility time period to start alarm</string>
+    <string name="block_motion">Motion Detection Block Size</string>
+    <string name="looks_safe">Everything looks SAFE</string>
+    <string name="firedetector">Fire and smoke detector</string>
+    <string name="gaslevel">Gas Level Checked</string>
+    <string name="seems_ok">Everything seems Alright</string>
+    <string name="alert_status">Alert Status</string>
+    <string name="intro">Introduction</string>
+    <string name="name_text">My name is Harkirat Singh Nagra.I am trying to code a new app</string>
+    <string name="task_title">Enter your task title</string>
+    <string name="task_warning">Please do not leave any field empty.</string>
+    <string name="time_default"></string>
+    <string name="refresh">Refresh</string>
+    <string name="task_heading">Your Tasks</string>
+    <string name="settings">SETTINGS</string>
+    <string name="account">Account</string>
+    <string name="profile">Profile</string>
+    <string name="premium">Premium</string>
+    <string name="language">Language</string>
+    <string name="about">About</string>
+    <string name="signOut">Sign Out</string>
+    <string name="resetPass">Reset Password</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="email_id">harshitabali89@gmail.com</string>
+    <string name="free_account">Free Account</string>
+    <string name="enter_currentPass">Enter Current Password *</string>
+    <string name="enter_NewPass">Enter New Password *</string>
+    <string name="enter_confirmPass">Confirm Password *</string>
+    <string name="save_button">SAVE</string>
+    <string name="cancel_button">CANCEL</string>
+    <string name="getItDone">Get It Done... </string>
+    <string name="about_text">We believe
+you have a lot on your plate.
+Let GID take care of your buildings and schedule.</string>
+    <string name="chores">Get your chores done
+ with this highly productive app </string>
+
+
+</resources>
+

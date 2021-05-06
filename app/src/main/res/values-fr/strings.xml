@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GID_Milestone2</string>
+    <string name="title_activity_menu">GID</string>
+    <string name="title_home">Accueil</string>
+    <string name="email_hint">email</string>
+    <string name="login">s\'identifier</string>
+    <string name="create_account">creer un compte </string>
+    <string name="password_hint">mot de passe</string>
+    <string name="confirm_hint">confirmez mot de passe</string>
+    <string name="alerts">alertes de capteur</string>
+    <string name="warnings">Aucun avertissement du capteur donne</string>
+    <string name="tasks">Taches</string>
+    <string name="tasks_text">aucune tache a accomplir</string>
+    <string name="temp">26 degres</string>
+    <string name="details">Details</string>
+    <string name="good">Bien!</string>
+    <string name="pressure">pression</string>
+    <string name="humidity">humiditie</string>
+    <string name="pressure_value">1024 Mb</string>
+    <string name="humidity_value">50%</string>
+    <string name="device">type d\'appareil:</string>
+    <string name="motion_detector">detecteur de mouvement</string>
+    <string name="blocksize">taille de bloc (%):</string>
+    <string name="motion_area">zone de mouvement (%):</string>
+    <string name="min_area">surface motrice totale minimale a entretenir</string>
+    <string name="time">periode de temps:</string>
+    <string name="immobility">periode d\'immobilite pour declencher l\'alarme</string>
+    <string name="block_motion">Taille du bloc de detection de mouvement</string>
+    <string name="looks_safe">tout semble sur</string>
+    <string name="firedetector">detecteur d\'incendie et de fumee</string>
+    <string name="gaslevel">niveau de gaz verifie</string>
+    <string name="seems_ok">tout semble bien</string>
+    <string name="alert_status">etat d\' alerte</string>
+    <string name="intro">Introduction</string>
+    <string name="name_text">My name is Harkirat Singh Nagra.I am trying to code a new app</string>
+    <string name="task_title">entrez le titre de votre tache</string>
+    <string name="task_warning">veuillez ne laisser aucun champ vide.</string>
+    <string name="time_default"></string>
+    <string name="refresh">rafraichir</string>
+    <string name="task_heading">vos taches</string>
+    <string name="settings">Reglages</string>
+    <string name="account">Compte</string>
+    <string name="profile">Profil</string>
+    <string name="premium">Prime</string>
+    <string name="language">Langue</string>
+    <string name="about">A propos</string>
+    <string name="signOut">Deconnexion</string>
+    <string name="resetPass">Reinitialiser le mot de passe</string>
+    <string name="delete_account">Supprimer le compte</string>
+    <string name="email_id">harshitabali89@gmail.com</string>
+    <string name="free_account">compte gratuit</string>
+    <string name="enter_currentPass">Saisissez le mot de passe actuel *</string>
+    <string name="enter_NewPass">Entrez un nouveau mot de passe *</string>
+    <string name="enter_confirmPass">Confirmez le mot de passe*</string>
+    <string name="save_button">ENREGISTRER</string>
+    <string name="cancel_button">ANNULER</string>
+    <string name="getItDone">Get It Done... </string>
+    <string name="about_text">Nous pensons que vous avez beaucoup a faire. Laissez GID s\'occuper de la construction et du calendrier.</string>
+    <string name="chores">Accomplissez vos taches avec cette application hautement productive.</string>
+
+
+
+
+
+
+
+</resources>
